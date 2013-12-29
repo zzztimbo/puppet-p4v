@@ -10,7 +10,7 @@
 class p4v($version='r13.4')
 {
   package { 'P4V.dmg':
-    provider => 'appdmg_eula',
+    provider => 'appdmg',
       source => "http://filehost.perforce.com/perforce/${version}/bin.macosx106x86_64/P4V.dmg"
   }
 }
