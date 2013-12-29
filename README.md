@@ -4,11 +4,7 @@ Install [Perforce Visual Client, p4v](http://perforce.com/product/components/per
 
 ## Usage
 
-```puppet
-class { 'p4v':
-  version => '12.1.4'
-}
-```
+```puppet class { 'p4v': version => 'r13.4'} ```
 
 ## Required Puppet Modules
 
